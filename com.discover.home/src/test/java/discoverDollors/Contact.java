@@ -5,8 +5,6 @@ import org.testng.annotations.Test;
 import discoverDollors.discoverDollor_pages.BaseTest;
 import discoverDollors.discoverDollor_pages.PageRepo;
 import discoverDollors.discoverDollor_pages.WebDriverCommonLib;
-
-
 @Test
 public class Contact extends BaseTest{
 	public void contact() throws Throwable

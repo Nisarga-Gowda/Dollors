@@ -8,7 +8,6 @@ import discoverDollors.discoverDollor_pages.WebDriverCommonLib;
 public class CareerOption extends BaseTest {
 	public void career() throws Throwable
 	{
-		
 		PageRepo p=new PageRepo(driver);
 		p.setcareers();
 		WebDriverCommonLib w = new WebDriverCommonLib();
