@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[team page got displayed]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="12579" started-at="2020-07-12T17:12:05 IST" finished-at="2020-07-12T17:12:18 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="12579" started-at="2020-07-12T17:12:05 IST" finished-at="2020-07-12T17:12:18 IST">
+      <class name="discoverDollors.Team">
+        <test-method status="PASS" signature="openthebrowserentertheurl()[pri:0, instance:discoverDollors.Team@86be70a]" name="openthebrowserentertheurl" is-config="true" duration-ms="11413" started-at="2020-07-12T17:12:05 IST" finished-at="2020-07-12T17:12:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openthebrowserentertheurl -->
+        <test-method status="PASS" signature="team()[pri:0, instance:discoverDollors.Team@86be70a]" name="team" duration-ms="1069" started-at="2020-07-12T17:12:17 IST" finished-at="2020-07-12T17:12:18 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[team page got displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- team -->
+      </class> <!-- discoverDollors.Team -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
