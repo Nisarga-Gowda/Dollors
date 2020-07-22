@@ -1,9 +1,15 @@
 package Assignment;
 
+import java.util.Scanner;
+
 public class ArmstrongNumber {
 	public static void main(String args[])
 	{
-		int no=153;
+		//int no=153;
+		int no;
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter no");
+		no=sc.nextInt();
 		int len=0;
 		int t1=no;
 		while(t1!=0)

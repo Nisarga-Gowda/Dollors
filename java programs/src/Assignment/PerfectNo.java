@@ -6,9 +6,9 @@ public class PerfectNo {
 public static void main(String args[])
 {
 	int num,sum=0;
-	Scanner in=new Scanner(System.in);
+	Scanner sc=new Scanner(System.in);
 	System.out.println("Enter number");
-	num=in.nextInt();
+	num=sc.nextInt();
 	if(num>0)
 	{
 	for(int i=1;i<=num/2;i++)
